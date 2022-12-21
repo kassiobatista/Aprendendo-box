@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+            margin:0px ;
+        }
+        header{
+            background-color: aliceblue;
+            padding:10px ;
+            margin: 10px ;
+        }
+        nav{
+            background-color: rgb(177, 192, 149);
+            padding: 3px;  
+        }
+        nav>a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav>a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: aliceblue;
+            padding:10px ;
+            margin: 10px ;
+        }
+        article{
+            background-color: rgb(248, 248, 100);
+            padding: 5px;
+        }
+        article > aside{
+            background-color:rgb(161, 161, 72);
+
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1x;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link </a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="Assuntos">
+            <p>Front end Back end Banco de dados</p>
+
+        </section>
+        <section id="Noticias">
+            <article>
+                <h2>Noticias sobre a Copa do mundo 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolorum unde consequuntur nihil, quasi rem quam excepturi, ut qui dolorem perspiciatis! Laborum minima magni tempora ducimus iure quo perferendis corrupti!</p>
+                <aside>
+                   
+                    <p>Artigo escrito por Kassio Batista</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Feito por Kassiodev</p>
+    </footer>
+</body>
+</html>
